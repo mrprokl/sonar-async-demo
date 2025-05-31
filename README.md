@@ -1,9 +1,5 @@
 # Sonar Async API Demo
 
-<div align="center">
-  <img src="public/logo.svg" alt="Perplexity Logo" height="60px" />
-</div>
-
 This is a demo application showcasing the Sonar Async API, which allows for handling research-intensive queries asynchronously. The application demonstrates how to submit research requests and check their status using a modern, user-friendly interface.
 
 ## Features
