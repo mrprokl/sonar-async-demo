@@ -21,7 +21,7 @@ This is a demo application showcasing the Sonar Async API, which allows for hand
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/mrprokl/sonar-async-demo.git
 cd sonar-async-demo
 ```
 
