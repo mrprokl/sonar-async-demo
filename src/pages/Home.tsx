@@ -2,6 +2,7 @@ import { Box, Container, Heading, SimpleGrid, Text, VStack, useToast, Spinner, T
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { submitAsyncRequest } from '../services/api';
+import { Footer } from '../components/Footer';
 
 const predefinedQueries = [
   {
@@ -331,6 +332,7 @@ export const Home = () => {
         </ModalContent>
       </Modal>
 
+      <Footer />
     </Box>
   );
 };

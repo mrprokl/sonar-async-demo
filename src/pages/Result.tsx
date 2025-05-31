@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { getAsyncResponse } from '../services/api';
 import { MarkdownRenderer } from '../components/MarkdownRenderer';
+import { Footer } from '../components/Footer';
 
 const sectionTheme = {
   bg: '#091717',
@@ -127,6 +128,7 @@ export const Result = () => {
           )}
         </VStack>
       </Container>
+      <Footer />
     </Box>
   );
 };
