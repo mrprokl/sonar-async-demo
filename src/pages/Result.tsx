@@ -9,7 +9,6 @@ const sectionTheme = {
   bg: '#091717',
   color: '#e4e3d4',
   minHeight: '100vh',
-  py: 10,
 };
 
 export const Result = () => {
@@ -57,8 +56,8 @@ export const Result = () => {
   };
 
   return (
-    <Box {...sectionTheme}>
-      <Container maxW="container.md" py={10}>
+    <Box {...sectionTheme} display="flex" flexDirection="column">
+      <Container maxW="container.md" py={10} flex="1">
         <VStack spacing={8} align="stretch" textAlign="center">
           <Image
             src="/logo.svg"
